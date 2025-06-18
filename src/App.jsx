@@ -1,10 +1,11 @@
 import React from 'react'
-import VideoChat from './VideoChat'
+import Header from './components/Header'
+import Tools from './components/Tools'
 const App = () => {
   return (
     <div>
-      <h1>Videochat Daily.co bilan</h1>
-      <VideoChat />
+      <Header/>
+      <Tools/>
     </div>
   )
 }
